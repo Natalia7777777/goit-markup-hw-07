@@ -11,7 +11,7 @@
   }
 }
 
-.features__img {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,9 +19,6 @@
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.features__img {
   color: currentColor;
 }
 

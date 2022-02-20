@@ -17,10 +17,6 @@
   margin-bottom: 20px;
 }
 
-.logo__footer--white {
-  color: #fff;
-}
-
 .contacts__item:not(:first-child) {
   margin-top: 9px;
 }
@@ -51,15 +47,4 @@
   color: var(--second-text-color);
 
   margin-bottom: 20px;
-}
-
-.social__link--secondary-color {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: var(--second-text-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  .social__link:hover &,
-  .social__link:focus & {
-    background-color: var(--accent-bg-color);
-  }
 }

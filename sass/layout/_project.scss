@@ -9,9 +9,9 @@
 }
 
 .menu__btn {
-  border-radius: 4px;
   padding: 6px 22px;
   border-color: transparent;
+  border-radius: 4px;
 
   font-weight: 500;
   font-size: 16px;
@@ -57,12 +57,12 @@
   }
 }
 
-.project__img {
+.project__box {
   position: relative;
   overflow: hidden;
 }
 
-.project__img::before {
+.project__box::before {
   content: '';
   background: rgba(33, 150, 243, 0.9);
 
